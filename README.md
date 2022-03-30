@@ -1,5 +1,5 @@
 <h3 align="center">
-  RNCalculator
+  Tempo-Agora
 </h3>
 
 ## Sobre o Tempo-Agora
