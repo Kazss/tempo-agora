@@ -1,0 +1,37 @@
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputContainer {
+  padding: 0.2rem 1rem;
+  flex: 1;
+  align-self: center;
+  color: #B3B5C6;
+  position: relative;
+  background-color: #1F2029;
+  border-radius: 2rem;
+  min-width: 45vw;
+  
+  input {
+    min-width: 100%;
+    background-color: transparent;
+    color: #EEEEF2;
+    padding: 0.5rem;
+    outline: none;
+    border: 0px;
+  }
+}
+
+
+.buttonContainer {
+  padding: 0.2rem 1rem;
+  
+  button {
+    padding: 0.5rem 1rem;
+    border-color: transparent;
+    border-radius: 2rem;
+    outline: none;
+  }
+  
+}
