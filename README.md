@@ -4,7 +4,7 @@
 
 ## Sobre o Tempo-Agora
 
-O Tempo-Agora é um app criado utilizando React e NextJS, focado em buscar qual é o clima de agora e dos próximos dias de uma cidade.
+O Tempo-Agora é um app criado utilizando Reac e  NextJS, focado em buscar qual é o clima de agora e dos próximos dias de uma cidade.
 
 ### Como rodar a aplicação?
 
