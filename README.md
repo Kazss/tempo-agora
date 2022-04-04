@@ -1,10 +1,10 @@
 <h3 align="center">
-  Tempo-Agora
+  Weather-Now
 </h3>
 
-## Sobre o Tempo-Agora
+## Sobre o Weather-Now
 
-O Tempo-Agora é um app criado utilizando Reac e  NextJS, focado em buscar qual é o clima de agora e dos próximos dias de uma cidade.
+O Weather-Now é um app criado utilizando Reac e  NextJS, focado em buscar qual é o clima de agora e dos próximos dias de uma cidade.
 
 ### Como rodar a aplicação?
 
