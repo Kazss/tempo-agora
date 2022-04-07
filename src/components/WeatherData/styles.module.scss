@@ -62,5 +62,9 @@
       }
     }
   }
+
+  @media (max-width: 750px) {
+    min-width: 75vw;
+  }
   
 }
