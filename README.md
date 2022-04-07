@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="weather-now" title="weather Now" src=""/>
+    <h1>Weather Now</h1>
 </h1>
 
 <p align="center">
