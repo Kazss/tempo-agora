@@ -28,6 +28,8 @@ This project was developed to practice and improve the creation of applications 
 
 In this application, the user can consult information of the weather by searching using name of a city.
 
+> See the Weather Now right now: https://weather-now-murex.vercel.app/
+
 ## :memo: License
 
 This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
