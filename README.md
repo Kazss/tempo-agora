@@ -1,5 +1,5 @@
 <h1 align="center">
-    <h1>Weather Now</h1>
+    <h1 align="center">Weather Now</h1>
 </h1>
 
 <p align="center">
