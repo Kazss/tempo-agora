@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="weather-now" title="weather Now"/>
+    <img alt="weather-now" title="weather Now" src=""/>
 </h1>
 
 <p align="center">
@@ -17,7 +17,6 @@
 
 ## 🚀 Technologies
 
-<<<<<<< HEAD
 This project was developed with the following technologies:
 
 - [React](https://reactjs.org)
