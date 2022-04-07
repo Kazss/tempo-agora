@@ -12,6 +12,7 @@ interface IForeCast {
 }[]
 
 interface WeatherDataProps {
+  city: string;
   temperature: string;
   wind: string;
   description: string;
@@ -31,14 +32,17 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title> Início | Tempo Agora</title>
+        <title> Home | Weather Now</title>
       </Head>
 
       <main className={styles.contentContainer}>
         <SearchInput handleAddWeatherData={setWeatherData} />
-        {weatherData && (
-          <WeatherData weatherData={weatherData} />
-        )}
+        <div className={styles.weatherDataContainer}>
+          {weatherData && (
+            <WeatherData weatherData={weatherData} />
+          )}
+        </div>
+
       </main>
 
 

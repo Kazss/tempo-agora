@@ -1,19 +1,38 @@
-<h3 align="center">
-  Weather-Now
-</h3>
-
-## Sobre o Weather-Now
-
-O Weather-Now é um app criado utilizando Reac e  NextJS, focado em buscar qual é o clima de agora e dos próximos dias de uma cidade.
-
-### Como rodar a aplicação?
-
-Após clonar o repositório/baixar os arquivos, navegue até a pasta e abra no Visual Studio Code, lembre-se de executar o comando `yarn ou npm` no seu terminal para instalar todas as dependências.
-
-<h3 align="center">
-  Design
-</h3>
+<h1 align="center">
+    <img alt="weather-now" title="weather Now"/>
+</h1>
 
 <p align="center">
- 
+  <a href="#-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-License">License</a>
 </p>
+
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=15C3D6&labelColor=000000" alt="PRs welcome!"/>
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
+</p>
+
+<br>
+
+## 🚀 Technologies
+
+<<<<<<< HEAD
+This project was developed with the following technologies:
+
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## 💻 Project
+
+This project was developed to practice and improve the creation of applications using ReactTS and Axios to consume API's.
+
+In this application, the user can consult information of the weather by searching using name of a city.
+
+## :memo: License
+
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
+
+---
+
+Made with ♥ by Kaz

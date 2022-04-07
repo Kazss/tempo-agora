@@ -7,17 +7,15 @@
   padding: 0.2rem 1rem;
   flex: 1;
   align-self: center;
-  color: #B3B5C6;
+  color: var(--gray-300);
   position: relative;
-  background-color: #1F2029;
-  border-radius: 2rem;
+  background: var(--white);
+  border-radius: 1rem 0 0 1rem;
   min-width: 45vw;
   
   input {
     min-width: 100%;
-    background-color: transparent;
-    color: #EEEEF2;
-    padding: 0.5rem;
+    padding: 0.4rem;
     outline: none;
     border: 0px;
   }
@@ -25,13 +23,30 @@
 
 
 .buttonContainer {
-  padding: 0.2rem 1rem;
-  
+  min-width: 50%;  
   button {
+    background: var(--green-300);
+    color: var(--white);
+    font-weight: bold;
     padding: 0.5rem 1rem;
     border-color: transparent;
-    border-radius: 2rem;
+    border-radius: 0 1rem 1rem 0;
     outline: none;
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.85);
+    }
+    
   }
   
+}
+
+
+.errorInput {
+  margin-top: 2.8rem;
+  margin-left: 1.3rem;
+  position: absolute;
+  color: red;
+  font-weight: bold;
 }

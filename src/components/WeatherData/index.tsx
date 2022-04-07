@@ -1,5 +1,6 @@
 import styles from './styles.module.scss';
-
+import { WiThermometer, WiStrongWind } from 'react-icons/wi';
+import { RiCalendarEventFill } from 'react-icons/ri';
 
 interface IForeCast {
   day: string;
@@ -8,6 +9,7 @@ interface IForeCast {
 }[]
 
 interface IWeatherData {
+  city: string;
   temperature: string;
   wind: string;
   description: string;
@@ -21,18 +23,21 @@ export function WeatherData({ weatherData }: WeatherProps) {
   return (
     <>
       <div className={styles.weatherNow}>
-        <h3>Weather now</h3>
-        <h1>{weatherData.temperature}</h1>
-        <h2>{weatherData.description}</h2>
+        <h1>{weatherData.city}</h1>
+        <span>Weather Now</span>
+        <span>{weatherData.temperature}</span>
+        <span>{weatherData.description}</span>
       </div>
       <div className={styles.weatherForeCast}>
-        <h3>Forecast</h3>
+        <h2>Forecast</h2>
         {weatherData.forecast.map(data => (
+          <div key={data.day} className={styles.forecastContainer}>
+            <div>
+              <span><RiCalendarEventFill/> {data.day}</span>
+              <span><WiThermometer />{data.temperature}</span>
+              <span><WiStrongWind />{data.wind}</span>
+            </div>
 
-          <div key={data.day}>
-            <span>{data.day}</span>
-            <span>{data.temperature}</span>
-            <span>{data.wind}</span>
           </div>
         ))}
       </div>
